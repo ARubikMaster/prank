@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11 prank</title>
+    <style>
+        body {
+            display: flex;
+            /* align-items: center;  Vertically center the image */
+            justify-content: center; /* Horizontally center the image */
+            margin: 0; /* Remove default body margin */
+            height: 100vh; /* Set body height to viewport height */
+            overflow: hidden; /* Hide any overflow */
+            background-color: #212023; /* Set a background color for the entire page */
+        }
+        img {
+            width: 100%;
+            height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+            max-height: 95vh; /* Limit the height to the viewport height */
+            object-fit: cover; /* Resize the image to cover the container */
+        }
+        .taskbar {
+            width: 100%;
+            height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+             max-height: 100vh; /* Limit the height to the viewport height */
+             object-fit: cover; /* Resize the image to cover the container */
+             background-color: #212023; /* Set a background color for the entire page */
+        }
+        #windows {
+            margin-left: 48%;
+            height: 4%;
+            width: auto;
+            justify-content: center;
+        }
+    </style>
+    <script>
+        function checkClick() {
+            location.href = "bluescreen.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="taskbar">
+        <img src="wallpaper.jpg">
+        <img src="icon.png" id="windows" onclick="checkClick()">
+    </div>
+</body>
+</html>

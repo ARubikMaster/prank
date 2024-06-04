@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluescreen</title>
+    <style>
+        body {
+            display: flex;
+            /* align-items: center;  Vertically center the image */
+            justify-content: center; /* Horizontally center the image */
+            margin: 0; /* Remove default body margin */
+            height: 100vh; /* Set body height to viewport height */
+            overflow: hidden; /* Hide any overflow */
+            background-color: #212023; /* Set a background color for the entire page */
+        }
+        img {
+            width: 100%;
+            height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+            max-height: 100vh; /* Limit the height to the viewport height */
+            object-fit: cover; /* Resize the image to cover the container */
+        }
+    </style>
+</head>
+<body>
+    <img src="Bluescreen.jpg">
+</body>
+</html>
